@@ -17,7 +17,7 @@ html{
     overflow-x: hidden;
 }
 body{
-    background-color: #111010e5;
+    background-color: #010409;
     overflow: hidden;
     padding-left: 35rem;
 }
@@ -71,7 +71,7 @@ header{
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background:#1b1b1b;
+    background:#0d1017;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,3 +221,58 @@ table{
     color: #eee;
     padding: 0. 5rem;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 1px;
+    }
+    /* Header section */
+    header {
+        height: 40%;
+        width: 100%;
+        align-items: center;
+        position:relative;
+        padding: 20px;
+        background: #0d1017
+    }
+    header .nv {
+        display: none;
+    }
+    header .user img {
+        height: 15rem;
+        width: 15rem;
+    }
+    header .user .nm {
+        font-size: 3.5rem;
+    }
+    header .user .jb {
+        font-size: 1.7rem;
+    }
+    header .social-links {
+        margin-top: 25px;
+    }
+    /* About section */
+    .Details .Row .det {
+        padding-left: 4rem;
+    }
+    /* Education section */
+    table {
+        margin: 1rem;
+        table-layout:fixed;
+        border-spacing:40px 100px;
+        font-size:16px;
+    }
+    /* Skill section */
+    ul {
+        padding-left: 3rem;
+    }
+    #lis li {
+        margin: 0 5rem;
+    }
+    /* Project section */
+    .Project .Row .det {
+        margin: 1rem;
+        padding-left: 4rem;
+    }
+  }

@@ -201,7 +201,7 @@ table{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 3rem 0;
+    padding-top: 3rem;
 }
 
 .Project .Row .det{
@@ -222,7 +222,15 @@ table{
     padding: 0. 5rem;
 }
 
-/* Media Queries */
+.Project .Row .det h3 a{
+    text-decoration: none;
+    color: #a1bbb2;
+}
+.Project .Row .det h3 a:hover{
+    color: #27c996fa;
+}
+
+/* Media Querie - 600px*/
 @media only screen and (max-width: 600px) {
     body {
         padding: 1px;
@@ -276,3 +284,11 @@ table{
         padding-left: 4rem;
     }
   }
+
+/* Media Querie - 390*/
+@media only screen and (max-width: 390px) {
+    table {
+        font-size: 14px;
+        margin: 0.5px;
+    }
+}

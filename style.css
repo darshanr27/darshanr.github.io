@@ -278,8 +278,8 @@ table{
     ul {
         padding: 3rem 0;
     }
-    #lis li {
-        margin: 0 5rem;
+    #lis {
+        padding: 3rem 0 0 5rem;
     }
     /* Project section */
     .Project .Row .det {

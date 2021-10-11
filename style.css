@@ -190,8 +190,11 @@ table{
     border-bottom: .1rem solid #fff4;
     color: #fff;
 }
+#lis {
+    padding: 3rem 0 0 8rem;
+}
 #lis li{
-    margin: 0 9rem;
+    margin: 0 2rem;
     color: white;
     font-size: medium;
     padding: .5rem 1rem;
@@ -227,7 +230,7 @@ table{
     color: #a1bbb2;
 }
 .Project .Row .det h3 a:hover{
-    color: #27c996fa;
+    color: #34a07e;
 }
 
 /* Media Querie - 600px*/
@@ -273,7 +276,7 @@ table{
     }
     /* Skill section */
     ul {
-        padding-left: 3rem;
+        padding: 3rem 0;
     }
     #lis li {
         margin: 0 5rem;
@@ -285,10 +288,13 @@ table{
     }
   }
 
-/* Media Querie - 390*/
-@media only screen and (max-width: 390px) {
+/* Media Querie - 400*/
+@media only screen and (max-width: 400px) {
     table {
         font-size: 14px;
         margin: 0.5px;
+    }
+    .heading span, .title span, .head span {
+        font-size: 3.7rem;
     }
 }

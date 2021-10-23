@@ -27,7 +27,9 @@ body{
     color: #f0f0f0;
 }
 .heading span, .title span, .head span{
-    color: #14bb86;
+    /* color: #14bb86; */
+    /* color: #12e6a2; */
+    color: #18e1e3;
 }
 .title{
     text-align: center;
@@ -94,7 +96,7 @@ header .nv ul li a{
     text-decoration: none;  
 }
 header .nv ul li a:hover{
-    background-color:#1fce964d;
+    background-color: #00eaee67;
 }
 header .social-links {
     margin-top: 10px;
@@ -107,7 +109,7 @@ header .social-links a {
     line-height: 40px;
     font-size: 22px;
     color: #ffffff;
-    background-color: #1c926d;
+    background-color: #198688;
     margin: 0 8px;
     border-radius: 50%;
     text-decoration: none;
@@ -131,7 +133,7 @@ header .social-links a:hover {
 }
 .Details .Row .det h3{
     font-size: 2rem;
-    color: #27c996fa;
+    color: #18e1e3;
     padding: 1rem 0;
     font-weight: normal;
 }
@@ -140,7 +142,7 @@ header .social-links a:hover {
     padding: 0. 5rem;
 }
 table,th,td{
-    border: 1px solid #27c996fa;
+    border: 1px solid #18e1e3;
     border-collapse: collapse;
 }
 td{
@@ -195,7 +197,7 @@ table{
     color: #a1bbb2;
 }
 .Project .Row .det h3 a:hover{
-    color: #34a07e;
+    color: #3ecaccee;
 }
 
 /* Media Querie - 600px*/

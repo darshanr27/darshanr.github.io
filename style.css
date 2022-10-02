@@ -1,7 +1,7 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     outline: none;
@@ -9,83 +9,80 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-html{
+
+html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
-body{
+
+body {
     background-color: #010409;
     overflow: hidden;
     padding-left: 35rem;
 }
-.heading{
+
+.heading {
     text-align: center;
     margin: 0 6rem;
     font-size: 4rem;
-    padding-top: 6rem;
+    padding-top: 2rem;
     border-bottom: .1rem solid #fff4;
     color: #f0f0f0;
 }
-.heading span, .title span, .head span{
+
+.heading span,
+.title span,
+.head span {
     /* color: #14bb86; */
     /* color: #12e6a2; */
     color: #18e1e3;
 }
-.title{
-    text-align: center;
-    margin: 0 6rem;
-    font-size: 4rem;
-    padding-top: 6rem;
-    border-bottom: .1rem solid #fff4;
-    color: #fff;
-}
-.head{
-    text-align: center;
-    margin: 0 6rem;
-    font-size: 4rem;
-    padding-top: 5rem;
-    border-bottom: .1rem solid #fff4;
-    color: #fff;
-}
-header{
-    position:fixed;
+
+header {
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
     height: 100%;
     width: 35rem;
-    background:#0d1017;
+    background: #0d1017;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
     text-align: center;
 }
-header .user img{
+
+header .user img {
     height: 13rem;
     width: 13rem;
     border-radius: 50%;
     object-fit: cover;
     border: .5rem solid #242c28;
 }
-header .user .nm{
-    font-size:3rem;
+
+header .user .nm {
+    font-size: 3rem;
     color: #fff;
     margin: 10px;
 }
-header .user .jb{
-    font-size:1.5rem;
+
+header .user .jb {
+    font-size: 1.5rem;
     color: #fff;
     margin: 5px;
 }
-header .nv{
+
+header .nv {
     width: 100%;
 }
-header .nv ul{
+
+header .nv ul {
     list-style: none;
-    padding: 1rem ;
+    padding: 1rem;
 }
-header .nv ul li a{
+
+header .nv ul li a {
     display: block;
     padding: 1rem;
     margin: 1.5rem 0;
@@ -93,14 +90,17 @@ header .nv ul li a{
     color: #fff;
     font-size: 2rem;
     border-radius: 5rem;
-    text-decoration: none;  
+    text-decoration: none;
 }
-header .nv ul li a:hover{
+
+header .nv ul li a:hover {
     background-color: #00eaee67;
 }
+
 header .social-links {
     margin-top: 10px;
 }
+
 header .social-links a {
     height: 40px;
     width: 40px;
@@ -116,44 +116,58 @@ header .social-links a {
     -webskit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
+
 header .social-links a:hover {
     transform: scale(1.15);
 }
-.Details .Row{
+
+.Details .Row,
+.Project .Row {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 3rem 0;
+    padding: 1rem 0;
 }
-.Details .Row .det{
+
+.Details .Row .det {
     flex: 1 1 48rem;
     padding: 2rem 1rem;
     padding-left: 8rem;
 }
-.Details .Row .det h3{
+
+.Details .Row .det h3 {
     font-size: 2rem;
     color: #18e1e3;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     font-weight: normal;
 }
-.Details .Row .det h3 span{
+
+.Details .Row .det h3 span,
+.Project .Row .det h3 span {
     color: #eee;
-    padding: 0. 5rem;
+    padding: 0.5rem;
+    font-weight: 500;
 }
-table,th,td{
+
+table,
+th,
+td {
     border: 1px solid #18e1e3;
     border-collapse: collapse;
 }
-td{
+
+td {
     color: white;
     padding: 1rem;
 }
-th{
+
+th {
     color: white;
     padding: 1rem;
 }
-table{
+
+table {
     text-align: center;
     margin: 0 6rem;
     font-size: 2rem;
@@ -161,42 +175,37 @@ table{
     border-bottom: .1rem solid #fff4;
     color: #fff;
 }
+
 #lis {
     padding: 3rem 0 0 8rem;
 }
-#lis li{
+
+#lis li {
     margin: 0 2rem;
     color: white;
     font-size: medium;
     padding: .5rem 1rem;
 }
-.Project .Row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 3rem;
-}
-.Project .Row .det{
+
+.Project .Row .det {
     flex: 1 1 48rem;
     padding: 2rem 1rem;
     padding-left: 8rem;
 }
-.Project .Row .det h3{
+
+.Project .Row .det h3 {
     font-size: 2rem;
     color: #b5bdba;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     font-weight: normal;
 }
-.Project .Row .det h3 span{
-    color: #eee;
-    padding: 0. 5rem;
-}
-.Project .Row .det h3 a{
+
+.Project .Row .det h3 a {
     text-decoration: none;
     color: #a1bbb2;
 }
-.Project .Row .det h3 a:hover{
+
+.Project .Row .det h3 a:hover {
     color: #3ecaccee;
 }
 
@@ -205,55 +214,66 @@ table{
     body {
         padding: 1px;
     }
+
     /* Header section */
     header {
         height: 40%;
         width: 100%;
         align-items: center;
-        position:relative;
+        position: relative;
         padding: 20px;
         background: #0d1017
     }
+
     header .nv {
         display: none;
     }
+
     header .user img {
         height: 15rem;
         width: 15rem;
     }
+
     header .user .nm {
         font-size: 3.5rem;
     }
+
     header .user .jb {
         font-size: 1.7rem;
     }
+
     header .social-links {
         margin-top: 25px;
     }
+
     /* About section */
     .Details .Row .det {
         padding-left: 4rem;
     }
+
     /* Education section */
     table {
         margin: 1rem;
-        table-layout:fixed;
-        border-spacing:40px 100px;
-        font-size:16px;
+        table-layout: fixed;
+        border-spacing: 40px 100px;
+        font-size: 16px;
     }
+
     /* Skill section */
     ul {
         padding: 3rem 0;
     }
+
     #lis {
         padding: 3rem 0 0 5rem;
     }
+
     /* Project section */
     .Project .Row .det {
         margin: 1rem;
         padding-left: 4rem;
     }
-  }
+}
 
 /* Media Querie - 400*/
 @media only screen and (max-width: 400px) {
@@ -261,7 +281,10 @@ table{
         font-size: 14px;
         margin: 0.5px;
     }
-    .heading span, .title span, .head span {
+
+    .heading span,
+    .title span,
+    .head span {
         font-size: 3.7rem;
     }
 }
